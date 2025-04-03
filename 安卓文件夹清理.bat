@@ -1,23 +1,26 @@
 @echo off
+COLOR f0
 
-echo 脚本由   "全戈 QUANGE"   编写
+echo ====================
+call :ys fc 脚本由..全戈..QUANGE..编写
 echo 项目GitHub：
 echo https://github.com/quan-ge/android_file_remove
-echo    
+echo.
 echo 如果有脚本中漏掉的文件夹 请在GitHub issues中告诉我！
 echo 链接：
 echo https://github.com/quan-ge/android_file_remove/issues/new
 echo https://github.com/quan-ge/android_file_remove/issues
-echo    
+echo.
 echo ====================
-echo   重点：
-echo  
-echo   
-echo 请不要   "以管理员身份运行"
-echo    
-echo 删除的所有文件(夹)   都会在   "$android_file"文件夹   备份!
-echo 你可以手动删除这个文件夹
-echo    
+echo   ！！！必读：
+echo.
+echo.
+call :ys fc 请不要“以管理员身份运行”
+echo.
+echo 删除的所有文件(夹)   都会在 "$android_file" 文件夹备份！
+call :ys fc 你需要手动删除“$android_file”文件夹
+echo.
+echo ====================
 echo 马上开始清理！
 pause
 
@@ -73,5 +76,14 @@ echo 删除 \Pictures
 copy .\Pictures .\$android_file
 rd /s /q .\Pictures 
    
-
 pause
+
+
+
+:ys
+pushd "%temp%"
+>"%~2",set/p= <nul
+findstr /a:%~1 .* "%~2*"
+del "%~2"
+echo.
+popd
