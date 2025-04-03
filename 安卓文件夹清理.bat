@@ -1,42 +1,71 @@
 @echo off
 
-rem è„šæœ¬ç”± "å…¨æˆˆ QUANGE" ç¼–å†™
-rem è¯·ä¸è¦ "ä»¥ç®¡ç†å‘˜èº«ä»½è¿è¡Œ"
-rem é¡¹ç›®GitHubï¼š https://github.com/quan-ge/android_file_remove
+echo ½Å±¾ÓÉ   "È«¸ê QUANGE"   ±àĞ´
+echo Çë²»Òª   "ÒÔ¹ÜÀíÔ±Éí·İÔËĞĞ"
+echo ÏîÄ¿GitHub£º
+echo https://github.com/quan-ge/android_file_remove
+echo ====================
+echo Èç¹ûÓĞ½Å±¾ÖĞÂ©µôµÄÎÄ¼ş¼Ğ ÇëÔÚGitHub issuesÖĞ¸æËßÎÒ£¡
+echo Á´½Ó£º
+echo https://github.com/quan-ge/android_file_remove/issues/new
+echo https://github.com/quan-ge/android_file_remove/issues
+echo ====================
+echo É¾³ıµÄËùÓĞÎÄ¼ş(¼Ğ)   ¶¼»áÔÚ   "$android_file"ÎÄ¼ş¼Ğ   ±¸·İ!
+echo Äã¿ÉÒÔÊÖ¶¯É¾³ıÕâ¸öÎÄ¼ş¼Ğ
+echo ÂíÉÏ¿ªÊ¼ÇåÀí£¡
 pause
 
+echo É¾³ı .\Android
 copy .\Android .\$android_file
+rd /s /q .\Android
+echo É¾³ı .\Ringtones
 copy .\Ringtones .\$android_file
-copy .\Recordings .\$android_file
-copy .\Sounds .\$android_file
-copy .\Huawei .\$android_file
-copy .\HuaweiSystem .\$android_file
-copy .\Movies .\$android_file
-copy .\Notifications .\$android_file
-copy .\Podcasts .\$android_file
-copy .\DCIM .\$android_file
-copy .\Download .\$android_file
-copy .\Documents .\$android_file
-copy .\Music .\$android_file
-copy .\media .\$android_file
-copy .\Audiobooks .\$android_file
-copy .\Alarms .\$android_file
-copy .\Pictures .\$android_file
-rd /s /q .\Android 
 rd /s /q .\Ringtones 
+echo É¾³ı .\Recordings
+copy .\Recordings .\$android_file
 rd /s /q .\Recordings 
-rd /s /q .\Sounds 
+echo É¾³ı .\Sounds
+copy .\Sounds .\$android_file
+rd /s /q .\Sounds
+echo É¾³ı .\Huawei
+copy .\Huawei .\$android_file
 rd /s /q .\Huawei 
+echo É¾³ı .\HuaweiSystem
+copy .\HuaweiSystem .\$android_file
 rd /s /q .\HuaweiSystem 
+echo É¾³ı .\Movies
+copy .\Movies .\$android_file
 rd /s /q .\Movies 
+echo É¾³ı .\Notifications
+copy .\Notifications .\$android_file
 rd /s /q .\Notifications 
+echo É¾³ı \Podcasts
+copy .\Podcasts .\$android_file
 rd /s /q .\Podcasts 
+echo É¾³ı .\DCIM
+copy .\DCIM .\$android_file
 rd /s /q .\DCIM 
+echo É¾³ı .\Download
+copy .\Download .\$android_file
 rd /s /q .\Download 
+echo É¾³ı \Documents 
+copy .\Documents .\$android_file
 rd /s /q .\Documents 
+echo É¾³ı \Music 
+copy .\Music .\$android_file
 rd /s /q .\Music 
-rd /s /q .\Audiobooks 
+echo É¾³ı .\media
+copy .\media .\$android_file
+rd /s /q .\media
+echo É¾³ı \Audiobooks 
+copy .\Audiobooks .\$android_file
+rd /s /q .\Audiobooks
+echo É¾³ı \Alarms
+copy .\Alarms .\$android_file
 rd /s /q .\Alarms 
+echo É¾³ı \Pictures 
+copy .\Pictures .\$android_file
 rd /s /q .\Pictures 
+   
 
 pause
