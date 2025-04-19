@@ -1,3 +1,5 @@
+爱发电/催更：https://afdian.com/a/QUAN_GE
+
 # 文件夹自动清理
 
 目前新添加了删除macos拉的屎的功能
