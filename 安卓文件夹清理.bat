@@ -4,7 +4,7 @@ COLOR f0
 echo ====================
 echo 该脚本可以清理掉 安卓和macos 在插入U盘时自动生成的 文件和文件夹
 echo ====================
-call :ys fc 脚本由..全戈..QUANGE..编写
+echo #!#!# 脚本由..全戈..QUANGE..编写
 echo 项目GitHub：
 echo https://github.com/quan-ge/android_file_remove
 echo.
@@ -14,12 +14,12 @@ echo.
 echo ====================
 echo   ！！！必读：
 echo.
-call :ys fc 请不要“以管理员身份运行”
+echo #!#!#  请不要“以管理员身份运行”
 echo.
 echo 删除的所有文件(夹)   都会在 "$android_file" 文件夹备份！
 echo 你需要手动删除“$android_file”文件夹
 echo.
-call :ys fc 请确认本脚本在OTG设备的根目录下运行，
+echo #!#!#  请确认本脚本在设备的根目录下运行，
 echo.
 echo ====================
 echo 马上开始清理！
@@ -138,17 +138,6 @@ echo 删除 .\Spotlight-V100
 copy  .\Spotlight-V100 .\$android_file
 rd /s /q  .\Spotlight-V100
 
-del /a:h /s /q ._*
-
 tree .\$android_file /f
 
 pause
-
-
-:ys
-pushd "%temp%"
->"%~2",set/p= <nul
-findstr /a:%~1 .* "%~2*"
-del "%~2"
-echo.
-popd
