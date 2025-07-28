@@ -26,6 +26,7 @@ echo 马上开始清理！
 pause
 
 
+mkdir .\$android_file
 
 echo 删除 .\Android
 copy .\Android .\$android_file
