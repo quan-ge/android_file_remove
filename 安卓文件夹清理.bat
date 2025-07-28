@@ -2,139 +2,140 @@
 COLOR f0
 
 echo ====================
-echo ¸Ã½Å±¾¿ÉÒÔÇåÀíµô °²×¿ºÍmacos ÔÚ²åÈëUÅÌÊ±×Ô¶¯Éú³ÉµÄ ÎÄ¼şºÍÎÄ¼ş¼Ğ
+echo è¯¥è„šæœ¬å¯ä»¥æ¸…ç†æ‰ å®‰å“å’Œmacos åœ¨æ’å…¥Uç›˜æ—¶è‡ªåŠ¨ç”Ÿæˆçš„ æ–‡ä»¶å’Œæ–‡ä»¶å¤¹
 echo ====================
-echo #!#!# ½Å±¾ÓÉ..È«¸ê..QUANGE..±àĞ´
-echo ÏîÄ¿GitHub£º
+echo #!#!# è„šæœ¬ç”±..å…¨æˆˆ..QUANGE..ç¼–å†™
+echo é¡¹ç›®GitHubï¼š
 echo https://github.com/quan-ge/android_file_remove
 echo.
-echo ÎÊÌâ·´À¡Á´½Ó£º
+echo é—®é¢˜åé¦ˆé“¾æ¥ï¼š
 echo https://github.com/quan-ge/android_file_remove/issues
 echo.
 echo ====================
-echo   £¡£¡£¡±Ø¶Á£º
+echo   ï¼ï¼ï¼å¿…è¯»ï¼š
 echo.
-echo #!#!#  Çë²»Òª¡°ÒÔ¹ÜÀíÔ±Éí·İÔËĞĞ¡±
+echo #!#!#  è¯·ä¸è¦â€œä»¥ç®¡ç†å‘˜èº«ä»½è¿è¡Œâ€
 echo.
-echo É¾³ıµÄËùÓĞÎÄ¼ş(¼Ğ)   ¶¼»áÔÚ "$android_file" ÎÄ¼ş¼Ğ±¸·İ£¡
-echo ÄãĞèÒªÊÖ¶¯É¾³ı¡°$android_file¡±ÎÄ¼ş¼Ğ
+echo åˆ é™¤çš„æ‰€æœ‰æ–‡ä»¶(å¤¹)   éƒ½ä¼šåœ¨ "$android_file" æ–‡ä»¶å¤¹å¤‡ä»½ï¼
+echo ä½ éœ€è¦æ‰‹åŠ¨åˆ é™¤â€œ$android_fileâ€æ–‡ä»¶å¤¹
 echo.
-echo #!#!#  ÇëÈ·ÈÏ±¾½Å±¾ÔÚÉè±¸µÄ¸ùÄ¿Â¼ÏÂÔËĞĞ£¬
+echo #!#!#  è¯·ç¡®è®¤æœ¬è„šæœ¬åœ¨è®¾å¤‡çš„æ ¹ç›®å½•ä¸‹è¿è¡Œï¼Œ
 echo.
 echo ====================
-echo ÂíÉÏ¿ªÊ¼ÇåÀí£¡
+echo é©¬ä¸Šå¼€å§‹æ¸…ç†ï¼
 pause
 
 
+mkdir .\$android_file
 
-echo É¾³ı .\Android
+echo åˆ é™¤ .\Android
 copy .\Android .\$android_file
 rd /s /q .\Android
 
-echo É¾³ı .\Ringtones
+echo åˆ é™¤ .\Ringtones
 copy .\Ringtones .\$android_file
 rd /s /q .\Ringtones 
 
-echo É¾³ı .\Recordings
+echo åˆ é™¤ .\Recordings
 copy .\Recordings .\$android_file
 rd /s /q .\Recordings
 
-echo É¾³ı .\Sounds
+echo åˆ é™¤ .\Sounds
 copy .\Sounds .\$android_file
 rd /s /q .\Sounds
 
-echo É¾³ı .\Huawei
+echo åˆ é™¤ .\Huawei
 copy .\Huawei .\$android_file
 rd /s /q .\Huawei 
 
-echo É¾³ı .\HuaweiSystem
+echo åˆ é™¤ .\HuaweiSystem
 copy .\HuaweiSystem .\$android_file
 rd /s /q .\HuaweiSystem 
-echo É¾³ı .\Movies
+echo åˆ é™¤ .\Movies
 copy .\Movies .\$android_file
 rd /s /q .\Movies
 
-echo É¾³ı .\Notifications
+echo åˆ é™¤ .\Notifications
 copy .\Notifications .\$android_file
 rd /s /q .\Notifications
 
-echo É¾³ı \Podcasts
+echo åˆ é™¤ \Podcasts
 copy .\Podcasts .\$android_file
 rd /s /q .\Podcasts
 
-echo É¾³ı .\DCIM
+echo åˆ é™¤ .\DCIM
 copy .\DCIM .\$android_file
 rd /s /q .\DCIM
 
-echo É¾³ı .\Download
+echo åˆ é™¤ .\Download
 copy .\Download .\$android_file
 rd /s /q .\Download
 
-echo É¾³ı \Documents 
+echo åˆ é™¤ \Documents 
 copy .\Documents .\$android_file
 rd /s /q .\Documents
 
-echo É¾³ı .\Music
+echo åˆ é™¤ .\Music
 copy .\Music .\$android_file
 rd /s /q .\Music
 
-echo É¾³ı .\media
+echo åˆ é™¤ .\media
 copy .\media .\$android_file
 rd /s /q .\media
 
-echo É¾³ı \Audiobooks 
+echo åˆ é™¤ \Audiobooks 
 copy .\Audiobooks .\$android_file
 rd /s /q .\Audiobooks
 
-echo É¾³ı .\Alarms
+echo åˆ é™¤ .\Alarms
 copy .\Alarms .\$android_file
 rd /s /q .\Alarms 
 
-echo É¾³ı .\.android_secure
+echo åˆ é™¤ .\.android_secure
 copy .\.android_secure .\$android_file
 rd /s /q .\.android_secure
 
-echo É¾³ı .\DataStorage
+echo åˆ é™¤ .\DataStorage
 copy .\DataStorage .\$android_file
 rd /s /q .\DataStorage
 
-echo É¾³ı \Pictures 
+echo åˆ é™¤ \Pictures 
 copy .\Pictures .\$android_file
 rd /s /q .\Pictures
 
-echo É¾³ı  .\.gs_file
+echo åˆ é™¤  .\.gs_file
 copy  .\.gs_file .\$android_file
 rd /s /q  .\.gs_file
 
-echo É¾³ı  .\.nomedia
+echo åˆ é™¤  .\.nomedia
 copy  .\.nomedia.\$android_file
 rd /s /q  .\.nomedia
 
-echo É¾³ı .\.gs_fs0
+echo åˆ é™¤ .\.gs_fs0
 copy  .\.gs_fs0 .\$android_file
 rd /s /q  .\.gs_fs0
 
-echo É¾³ı .\LOST.DIR
+echo åˆ é™¤ .\LOST.DIR
 copy  .\LOST.DIR .\$android_file
 rd /s /q  .\LOST.DIR
 
-echo É¾³ı .\ktcp_video
+echo åˆ é™¤ .\ktcp_video
 copy  .\ktcp_video .\$android_file
 rd /s /q  .\ktcp_video
 
-echo É¾³ı .\tad
+echo åˆ é™¤ .\tad
 copy  .\tad .\$android_file
 rd /s /q  .\tad
 
-echo É¾³ı .DS_Store
+echo åˆ é™¤ .DS_Store
 copy  .\DS_Store .\$android_file
 rd /s /q  .\DS_Store
 
-echo É¾³ı .\fseventsd
+echo åˆ é™¤ .\fseventsd
 copy  .\fseventsd .\$android_file
 rd /s /q  .\fseventsd
 
-echo É¾³ı .\Spotlight-V100
+echo åˆ é™¤ .\Spotlight-V100
 copy  .\Spotlight-V100 .\$android_file
 rd /s /q  .\Spotlight-V100
 
