@@ -30,7 +30,7 @@
 
 可以去Releases下载
 
-将 "安卓文件夹清理.bat"或"default.bat" 下载到U盘根目录下
+将 "安卓文件夹清理.bat"或"android_file_remove.bat" 下载到U盘根目录下
 
 注意！！  一定要是根目录！
 
