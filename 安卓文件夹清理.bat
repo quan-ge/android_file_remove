@@ -1,142 +1,143 @@
 @echo off
 COLOR f0
 
+
+echo   .oooooo.      ooooo     ooo       .o.       ooooo      ooo   .oooooo.    oooooooooooo 
+echo  d8P'  `Y8b     `888'     `8'      .888.      `888b.     `8'  d8P'  `Y8b   `888'     `8 
+echo 888      888     888       8      .8"888.      8 `88b.    8  888            888         
+echo 888      888     888       8     .8' `888.     8   `88b.  8  888            888oooo8    
+echo 888      888     888       8    .88ooo8888.    8     `88b.8  888     ooooo  888    "    
+echo `88b    d88b     `88.    .8'   .8'     `888.   8       `888  `88.    .88'   888       o 
+echo  `Y8bood8P'Ybd'    `YbodP'    o88o     o8888o o8o        `8   `Y8bood8P'   o888ooooood8 
+
+
 echo ====================
-echo ¸Ã½Å±¾¿ÉÒÔÇåÀíµô °²×¿ºÍmacos ÔÚ²åÈëUÅÌÊ±×Ô¶¯Éú³ÉµÄ ÎÄ¼şºÍÎÄ¼ş¼Ğ
+echo è¯¥è„šæœ¬å¯ä»¥æ¸…ç†æ‰ å®‰å“å’ŒMACOS åœ¨Uç›˜ä¸­åˆ›å»ºçš„æ–‡ä»¶å¤¹
 echo ====================
-echo #!#!# ½Å±¾ÓÉ..È«¸ê..QUANGE..±àĞ´
-echo ÏîÄ¿GitHub£º
+echo é¡¹ç›®GitHubï¼š
 echo https://github.com/quan-ge/android_file_remove
+echo ====================
+echo   ï¼ï¼ï¼å¿…è¯»ï¼š
 echo.
-echo ÎÊÌâ·´À¡Á´½Ó£º
-echo https://github.com/quan-ge/android_file_remove/issues
+echo #!#!#  è¯·ä¸è¦â€œä»¥ç®¡ç†å‘˜èº«ä»½è¿è¡Œâ€
+echo.
+echo #!#!#  è¯·ç¡®è®¤æœ¬è„šæœ¬åœ¨å­˜å‚¨è®¾å¤‡çš„æ ¹ç›®å½•ä¸‹è¿è¡Œï¼Œ
 echo.
 echo ====================
-echo   £¡£¡£¡±Ø¶Á£º
-echo.
-echo #!#!#  Çë²»Òª¡°ÒÔ¹ÜÀíÔ±Éí·İÔËĞĞ¡±
-echo.
-echo É¾³ıµÄËùÓĞÎÄ¼ş(¼Ğ)   ¶¼»áÔÚ "$android_file" ÎÄ¼ş¼Ğ±¸·İ£¡
-echo ÄãĞèÒªÊÖ¶¯É¾³ı¡°$android_file¡±ÎÄ¼ş¼Ğ
-echo.
-echo #!#!#  ÇëÈ·ÈÏ±¾½Å±¾ÔÚÉè±¸µÄ¸ùÄ¿Â¼ÏÂÔËĞĞ£¬
-echo.
-echo ====================
-echo ÂíÉÏ¿ªÊ¼ÇåÀí£¡
+echo è¯·å…ˆé˜…è¯»æ³¨æ„äº‹é¡¹
 pause
 
 
-mkdir .\$android_file
-
-echo É¾³ı .\Android
-copy .\Android .\$android_file
+echo åˆ é™¤ .\Android
+xcopy .\Android .\$android_file /e /y
 rd /s /q .\Android
 
-echo É¾³ı .\Ringtones
-copy .\Ringtones .\$android_file
+echo åˆ é™¤ .\Ringtones
+xcopy .\Ringtones .\$android_file /e /y
 rd /s /q .\Ringtones 
 
-echo É¾³ı .\Recordings
-copy .\Recordings .\$android_file
+echo åˆ é™¤ .\Recordings
+xcopy .\Recordings .\$android_file /e /y
 rd /s /q .\Recordings
 
-echo É¾³ı .\Sounds
-copy .\Sounds .\$android_file
+echo åˆ é™¤ .\Sounds
+xcopy .\Sounds .\$android_file /e /y
 rd /s /q .\Sounds
 
-echo É¾³ı .\Huawei
-copy .\Huawei .\$android_file
+echo åˆ é™¤ .\Huawei
+xcopy .\Huawei .\$android_file /e /y
 rd /s /q .\Huawei 
 
-echo É¾³ı .\HuaweiSystem
-copy .\HuaweiSystem .\$android_file
+echo åˆ é™¤ .\HuaweiSystem
+xcopy .\HuaweiSystem .\$android_file /e /y
 rd /s /q .\HuaweiSystem 
-echo É¾³ı .\Movies
-copy .\Movies .\$android_file
+
+echo åˆ é™¤ .\Movies
+xcopy .\Movies .\$android_file /e /y
 rd /s /q .\Movies
 
-echo É¾³ı .\Notifications
-copy .\Notifications .\$android_file
+echo åˆ é™¤ .\Notifications
+xcopy .\Notifications .\$android_file /e /y
 rd /s /q .\Notifications
 
-echo É¾³ı \Podcasts
-copy .\Podcasts .\$android_file
+echo åˆ é™¤ \Podcasts
+xcopy .\Podcasts .\$android_file /e /y
 rd /s /q .\Podcasts
 
-echo É¾³ı .\DCIM
-copy .\DCIM .\$android_file
+echo åˆ é™¤ .\DCIM
+xcopy .\DCIM .\$android_file /e /y
 rd /s /q .\DCIM
 
-echo É¾³ı .\Download
-copy .\Download .\$android_file
+echo åˆ é™¤ .\Download
+xcopy .\Download .\$android_file /e /y
 rd /s /q .\Download
 
-echo É¾³ı \Documents 
-copy .\Documents .\$android_file
+echo åˆ é™¤ \Documents 
+xcopy .\Documents .\$android_file /e /y
 rd /s /q .\Documents
 
-echo É¾³ı .\Music
-copy .\Music .\$android_file
+echo åˆ é™¤ .\Music
+xcopy .\Music .\$android_file /e /y
 rd /s /q .\Music
 
-echo É¾³ı .\media
-copy .\media .\$android_file
+echo åˆ é™¤ .\media
+xcopy .\media .\$android_file /e /y
 rd /s /q .\media
 
-echo É¾³ı \Audiobooks 
-copy .\Audiobooks .\$android_file
+echo åˆ é™¤ \Audiobooks 
+xcopy .\Audiobooks .\$android_file /e /y
 rd /s /q .\Audiobooks
 
-echo É¾³ı .\Alarms
-copy .\Alarms .\$android_file
+echo åˆ é™¤ .\Alarms
+xcopy .\Alarms .\$android_file /e /y
 rd /s /q .\Alarms 
 
-echo É¾³ı .\.android_secure
-copy .\.android_secure .\$android_file
+echo åˆ é™¤ .\.android_secure
+xcopy .\.android_secure .\$android_file /e /y
 rd /s /q .\.android_secure
 
-echo É¾³ı .\DataStorage
-copy .\DataStorage .\$android_file
+echo åˆ é™¤ .\DataStorage
+xcopy .\DataStorage .\$android_file /e /y
 rd /s /q .\DataStorage
 
-echo É¾³ı \Pictures 
-copy .\Pictures .\$android_file
+echo åˆ é™¤ \Pictures 
+xcopy .\Pictures .\$android_file /e /y
 rd /s /q .\Pictures
 
-echo É¾³ı  .\.gs_file
-copy  .\.gs_file .\$android_file
+echo åˆ é™¤  .\.gs_file
+xcopy  .\.gs_file .\$android_file /e /y
 rd /s /q  .\.gs_file
 
-echo É¾³ı  .\.nomedia
-copy  .\.nomedia.\$android_file
+echo åˆ é™¤  .\.nomedia
+xcopy  .\.nomedia.\$android_file /e /y
 rd /s /q  .\.nomedia
 
-echo É¾³ı .\.gs_fs0
-copy  .\.gs_fs0 .\$android_file
+echo åˆ é™¤ .\.gs_fs0
+xcopy  .\.gs_fs0 .\$android_file /e /y
 rd /s /q  .\.gs_fs0
 
-echo É¾³ı .\LOST.DIR
-copy  .\LOST.DIR .\$android_file
+echo åˆ é™¤ .\LOST.DIR
+xcopy  .\LOST.DIR .\$android_file /e /y
 rd /s /q  .\LOST.DIR
 
-echo É¾³ı .\ktcp_video
-copy  .\ktcp_video .\$android_file
+echo åˆ é™¤ .\ktcp_video
+xcopy  .\ktcp_video .\$android_file /e /y
 rd /s /q  .\ktcp_video
 
-echo É¾³ı .\tad
-copy  .\tad .\$android_file
+echo åˆ é™¤ .\tad
+xcopy  .\tad .\$android_file /e /y
 rd /s /q  .\tad
 
-echo É¾³ı .DS_Store
-copy  .\DS_Store .\$android_file
+echo åˆ é™¤ .DS_Store
+xcopy  .\DS_Store .\$android_file /e /y
 rd /s /q  .\DS_Store
 
-echo É¾³ı .\fseventsd
-copy  .\fseventsd .\$android_file
+echo åˆ é™¤ .\fseventsd
+xcopy  .\fseventsd .\$android_file /e /y
 rd /s /q  .\fseventsd
 
-echo É¾³ı .\Spotlight-V100
-copy  .\Spotlight-V100 .\$android_file
+echo åˆ é™¤ .\Spotlight-V100
+xcopy  .\Spotlight-V100 .\$android_file /e /y
 rd /s /q  .\Spotlight-V100
 
 tree .\$android_file /f
