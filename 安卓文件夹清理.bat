@@ -16,7 +16,7 @@ echo ¸Ã½Å±¾¿ÉÒÔÇåÀíµô °²×¿ºÍMACOS ÔÚUÅÌÖÐ´´½¨µÄÎÄ¼þ¼Ð
 echo ====================
 echo ÏîÄ¿GitHub£º
 echo https://github.com/quan-ge/android_file_remove
-echo µ±Ç°°æ±¾£º3.0.0
+echo µ±Ç°°æ±¾£º3.1.0
 echo ====================
 echo   £¡£¡£¡±Ø¶Á£º
 echo.
@@ -30,117 +30,87 @@ pause
 
 
 echo É¾³ý .\Android
-xcopy .\Android .\$android_file /e /y
 rd /s /q .\Android
 
 echo É¾³ý .\Ringtones
-xcopy .\Ringtones .\$android_file /e /y
 rd /s /q .\Ringtones 
 
 echo É¾³ý .\Recordings
-xcopy .\Recordings .\$android_file /e /y
 rd /s /q .\Recordings
 
 echo É¾³ý .\Sounds
-xcopy .\Sounds .\$android_file /e /y
 rd /s /q .\Sounds
 
 echo É¾³ý .\Huawei
-xcopy .\Huawei .\$android_file /e /y
 rd /s /q .\Huawei 
 
 echo É¾³ý .\HuaweiSystem
-xcopy .\HuaweiSystem .\$android_file /e /y
 rd /s /q .\HuaweiSystem 
 
 echo É¾³ý .\Movies
-xcopy .\Movies .\$android_file /e /y
 rd /s /q .\Movies
 
 echo É¾³ý .\Notifications
-xcopy .\Notifications .\$android_file /e /y
 rd /s /q .\Notifications
 
 echo É¾³ý \Podcasts
-xcopy .\Podcasts .\$android_file /e /y
 rd /s /q .\Podcasts
 
 echo É¾³ý .\DCIM
-xcopy .\DCIM .\$android_file /e /y
 rd /s /q .\DCIM
 
 echo É¾³ý .\Download
-xcopy .\Download .\$android_file /e /y
 rd /s /q .\Download
 
 echo É¾³ý \Documents 
-xcopy .\Documents .\$android_file /e /y
 rd /s /q .\Documents
 
 echo É¾³ý .\Music
-xcopy .\Music .\$android_file /e /y
 rd /s /q .\Music
 
 echo É¾³ý .\media
-xcopy .\media .\$android_file /e /y
 rd /s /q .\media
 
 echo É¾³ý \Audiobooks 
-xcopy .\Audiobooks .\$android_file /e /y
 rd /s /q .\Audiobooks
 
 echo É¾³ý .\Alarms
-xcopy .\Alarms .\$android_file /e /y
 rd /s /q .\Alarms 
 
 echo É¾³ý .\.android_secure
-xcopy .\.android_secure .\$android_file /e /y
 rd /s /q .\.android_secure
 
 echo É¾³ý .\DataStorage
-xcopy .\DataStorage .\$android_file /e /y
 rd /s /q .\DataStorage
 
 echo É¾³ý \Pictures 
-xcopy .\Pictures .\$android_file /e /y
 rd /s /q .\Pictures
 
 echo É¾³ý  .\.gs_file
-xcopy  .\.gs_file .\$android_file /e /y
 rd /s /q  .\.gs_file
 
 echo É¾³ý  .\.nomedia
-xcopy  .\.nomedia.\$android_file /e /y
 rd /s /q  .\.nomedia
 
 echo É¾³ý .\.gs_fs0
-xcopy  .\.gs_fs0 .\$android_file /e /y
 rd /s /q  .\.gs_fs0
 
 echo É¾³ý .\LOST.DIR
-xcopy  .\LOST.DIR .\$android_file /e /y
 rd /s /q  .\LOST.DIR
 
 echo É¾³ý .\ktcp_video
-xcopy  .\ktcp_video .\$android_file /e /y
 rd /s /q  .\ktcp_video
 
 echo É¾³ý .\tad
-xcopy  .\tad .\$android_file /e /y
 rd /s /q  .\tad
 
 echo É¾³ý .DS_Store
-xcopy  .\DS_Store .\$android_file /e /y
 rd /s /q  .\DS_Store
 
 echo É¾³ý .\fseventsd
-xcopy  .\fseventsd .\$android_file /e /y
 rd /s /q  .\fseventsd
 
 echo É¾³ý .\Spotlight-V100
-xcopy  .\Spotlight-V100 .\$android_file /e /y
 rd /s /q  .\Spotlight-V100
-
-tree .\$android_file /f
 
 pause
